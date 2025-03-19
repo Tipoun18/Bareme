@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Gidole&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Lobster Two';
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+button {
+    width: 95%;
+    height: 60px;
+    font-size: 22px;
+    align-items: center;
+    background-color: rgb(156, 247, 153);
+    font-family: 'Gidole';
+    font-weight: 900;
+    border-radius: 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Gidole';
+    color: orange;
+}
+
+button:hover {
+    background-color: rgb(186, 240, 184);
+}
+
+button:active {
+    background-color: rgb(152, 232, 150);
+}
